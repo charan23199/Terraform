@@ -16,5 +16,11 @@ variable "tags" {
         Environment = "Dev"
         Component = "Web"
     }
+    
+}
+
+variable "sg-name" {
+    type = string
+    default = "roboshop-all-aws"
   
 }
