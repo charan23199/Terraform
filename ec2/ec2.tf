@@ -8,6 +8,8 @@ resource "aws_instance" "web" {
   }
 }
 
+#just checking the push commits
+
 resource "aws_security_group" "roboshop-all" {
   name = var.sg-name
   description = "allow TLS inbound traffic"
